@@ -1,0 +1,156 @@
+body{
+    font-family:Montserrat ;
+}
+
+#title{
+    background-color: crimson;
+    color: white;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+
+/* Download Button */
+
+.downloadbutton{
+    margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title_image{
+ width: 60%;
+ transform: rotate(25deg);
+ position: absolute;
+ right: 30%;
+}
+
+/* middle section */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+.midpart{
+    
+    text-align: center;
+}
+.midpart h3{
+    font-family: "Montserrat";
+    font-size:1.5rem ;
+}
+
+.midpart p{
+    color: dimgray;
+    padding: 0 15%;
+}
+
+/* mid icons */
+
+.icon{
+    padding: 20px 0px;
+    color: lightcoral;
+}
+.icon:hover{
+ color: hsl(342, 74%, 49%);
+}
+
+/* Testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color:lightcoral;
+    color: antiquewhite;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: "Montserrat";
+
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color:lightcoral;
+    text-align: center;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding :100px;
+}
+
+.pricing-column{
+    padding: 5%;
+}
+
+@media (max-width: 1028px){
+    .title_image{
+        position: static;
+        transform: rotate(0);
+
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+/* Call to action */
+
+#cta{
+    
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 3% 30%;
+}
+#cta h3{
+    font-family: "Montserrat";
+    color:white;
+    font-size: 2.5rem;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 3% 15%;
+    color:gray
+}
+
+.footer-link{
+    padding: 20px;
+    color: black;
+}
